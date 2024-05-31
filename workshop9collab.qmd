@@ -16,8 +16,21 @@ library(here) # for easy file pathing
 
 
 
-readign in data:
+reading in data:
 ```{r}
-data(pie_crab) #readgin in plum island ecosystem data set from lterdata package
+data(pie_crab) #reading in plum island ecosystem data set from lterdata package
 ```
+
+
+exploratory vis
+```{r}
+ggplot(aes(x = latitude, y = size), data = pie_crab) + 
+  geom_point(color = "skyblue") + 
+  labs(x = "Latitude", y = "Size (mm)") + 
+  theme_minimal()
+```
+
+
+
+
 
