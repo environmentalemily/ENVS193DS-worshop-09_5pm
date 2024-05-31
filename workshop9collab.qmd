@@ -18,6 +18,6 @@ library(here) # for easy file pathing
 
 readign in data:
 ```{r}
-data(pie_crab) #readgin in plum isalnd ecosystem data set from lterdata package
+data(pie_crab) #readgin in plum island ecosystem data set from lterdata package
 ```
 
